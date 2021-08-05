@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Changa', sans-serif;
+}
+@keyframes pisca{
+    0%{opacity: 0.2;}
+    50%{opacity: 1;}
+    100%{opacity: 0.2;}
+}
+.urna {
+    background-color: #2F4F4F;
+    padding: 30px;
+    display: flex;
+}
+
+.tela {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 320px;
+    background: linear-gradient(#c0c0c0, #808080);
+    border: #555;
+}
+
+.linha {
+    display: flex;
+    justify-content: center;
+}
+
+.teclado {
+    background-color: rgb(107, 107, 107);
+    border-radius: 4px;
+    margin-left: 30px;
+}
+
+.teclado-botao {
+    box-shadow: 2px 2px #808080;
+    border-radius: 4px;
+    width: 70px;
+    height: 40px;
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#branco,
+#confirma,
+#corrige {
+    font-family: 'Changa', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: antiquewhite;
+}
+
+#confirma:hover {
+    color: greenyellow
+}
+
+#corrige:hover {
+    color: red;
+}
+
+
+
+.description {
+display: flex;
+flex-direction: column;
+    flex: 1;
+}
+
+.d-1left{flex: 1;}
+.d-1right{width: 90px;}
+
+
+.infos {
+    display: flex;
+}
+.infos span,
+li {
+    height: 40%;
+    padding: 0%;
+    margin-bottom: 0%;
+    list-style: none;
+    font-family: 'Changa', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.Cvoto,.redes,.wiki{height: 50px;
+    display: flex;
+justify-content: center;
+align-items: center;}
+.mais{height: 30%;line-height: 5px;}
+.imgRedes{display: inline-block;
+    text-align: center;
+    width: 50px;
+height: 40px;
+border:5px solid rgb(54, 0, 116);
+border-radius: 4px;
+margin: 0%;
+padding: 0%;
+}
+.pisca{animation-name: pisca;
+animation-duration: 2s;
+animation-iteration-count: infinite;}
+.VOTOBRANCO{font-size: 20px;
+justify-content: center;
+display: inline-flex;
+color: red; margin: 0%;}

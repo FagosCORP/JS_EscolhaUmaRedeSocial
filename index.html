@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300;400&display=swap" rel="stylesheet">
+    <title>Urna eletronica</title>
+</head>
+
+<body>
+    <div class="urna">
+        <div class="tela">
+            <div class="description">
+                <div class="d-1left">
+                    <div class="Cvoto"><span>Seu voto:</span></div>
+                    <div class="redes">
+                        <div class="imgRedes pisca"></div>
+                    </div>
+                    <div class="wiki">...</div>
+                    <div class="mais">...</div>
+                </div>
+
+            </div>
+            <div class="infos">
+                <span>APERTE:</span>
+                <ul>
+                    <li>CONFIRMA PARA CONFIRMAR O VOTO
+                    </li>
+                    <li>CORRIGE PARA CORRIGIR O VOTO</li>
+                    <li>BRANCO PARA ANULAR O VOTO</li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="teclado">
+            <div class="linha">
+                <div class="teclado-botao" onclick="clicou('1')"><img src="/imgs/facebook (1).png" alt=""></div>
+                <div class="teclado-botao" onclick="clicou('2')" ><img src="/imgs/instagram (1).png" alt=""></div>
+                <div class="teclado-botao"  onclick="clicou('3')"><img src="/imgs/steam.png" alt=""></div>
+            </div>
+            <div class="linha">
+                <div class="teclado-botao"   onclick="clicou('4')"><img src="/imgs/pinterest.png" alt=""></div>
+                <div class="teclado-botao" onclick="clicou('5')"><img src="/imgs/twitter (1).png" alt=""></div>
+                <div class="teclado-botao"  onclick="clicou('6')"><img src="/imgs/whatsapp (1).png" alt=""></div>
+            </div>
+
+
+            <div class="linha">
+                <div class="teclado-botao"  onclick="clicou('7')"><img src="/imgs/reddit.png" alt=""></div>
+                <div class="teclado-botao"  onclick="clicou('8')"><img src="/imgs/linkedin.png" alt=""></div>
+                <div class="teclado-botao"  onclick="clicou('9')"><img src="/imgs/telegram.png" alt=""></div>
+            </div>
+
+            <div class="linha">
+                <div class="teclado-botao"  onclick="clicou('0')"><img src="/imgs/discordia.png" alt=""></div>
+            </div>
+
+            <div class="linha">
+                <div class="teclado-botao" id="branco"  onclick="branco()">BRANCO</div>
+                <div class="teclado-botao" id="corrige"  onclick="corrige()">CORRIGE</div>
+                <div class="teclado-botao" id="confirma"  onclick="confirma()">CONFIRMA</div>
+            </div>
+            <script src="/etapas.js"></script>
+            <script src="/urna.js"></script>
+</body>
+
+</html>
