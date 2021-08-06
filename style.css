@@ -114,3 +114,9 @@ animation-iteration-count: infinite;}
 justify-content: center;
 display: inline-flex;
 color: red; margin: 0%;}
+
+.fim{font-size: 100px;
+    font-weight: 900;
+    justify-content: center;
+    display: inline-flex;
+    color:green; margin: 0%;}
